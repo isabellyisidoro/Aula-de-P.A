@@ -1,0 +1,260 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMRIRPKnkCF2kuOygWy9xva",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/isabellyisidoro/Aula-de-P.A/blob/main/aula3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Aula de Programação e Algoritimos\n",
+        "\n",
+        "* calcular uma área\n",
+        "\n",
+        "# Entrada\n",
+        "Ler lado1 ler lado2\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "area=lado1 lado2\n",
+        "\n",
+        "#Saída\n",
+        "escrever o total da área\n"
+      ],
+      "metadata": {
+        "id": "nIXOMJA1sU6y"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# variável que recebe o valor dos lados\n",
+        "# Entrada\n",
+        "lado_1 = 7\n",
+        "lado_2 = 3\n"
+      ],
+      "metadata": {
+        "id": "hgQqzd-IuLdz"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "\n",
+        "area = lado_1 * lado_2"
+      ],
+      "metadata": {
+        "id": "xKCtgLcavEp3"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (f\"Total da área calculada: {area} metros\" )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jpq3JEYSvb30",
+        "outputId": "a3500084-bc1a-4d82-dbf4-7b2424d73998"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total da área calculada: 21 metros\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operadores aririméticos\n",
+        "\n",
+        "1. Soma = +\n",
+        "2. Subtração = -\n",
+        "3. Multiplicação = *\n",
+        "4. Divisão = /\n"
+      ],
+      "metadata": {
+        "id": "XuTW-lu4zrWR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade:\n",
+        " Fazer um algoritimo e depois o programa que recebe 4 notas do aluno e calcula a média aritimética e imprimi a média.\n"
+      ],
+      "metadata": {
+        "id": "tYAmWyNN0aOi"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Entrada\n",
+        "\n",
+        "Ler\n",
+        "nota_1\n",
+        "nota_2\n",
+        "nota_3\n",
+        "nota_4\n",
+        "\n",
+        "\n",
+        "#Processamento\n",
+        "escrever calculo das notas\n",
+        "\n",
+        "#Saída\n",
+        " escrever total das notas\n"
+      ],
+      "metadata": {
+        "id": "KWHoJDx28asZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Variáveis que recebe o valor dos dados\n",
+        "# Entrada\n",
+        "\n",
+        "Nota_1 = 9\n",
+        "Nota_2 = 7\n",
+        "Nota_3 = 8\n",
+        "Nota_4 = 6"
+      ],
+      "metadata": {
+        "id": "P-HE-0DJ2xP4"
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "Nota: (9 + 7 + 8 + 6)/4"
+      ],
+      "metadata": {
+        "id": "QF0SoL893999"
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "print (f\"Total da área calculada: {Nota} nota final\" )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TDL_D8Uw4q37",
+        "outputId": "77295f2e-40dc-4387-d893-ae01474c43bf"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total da área calculada: 7.5 nota final\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade 2: faça um algoritimo que receba um numero e calcule o dobro desse número"
+      ],
+      "metadata": {
+        "id": "jZ0LI0-I9077"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# variável que recebe o valor dos lados\n",
+        "# Entrada\n",
+        "Numero_1 = 8"
+      ],
+      "metadata": {
+        "id": "8fSra-QO-SWV"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "Numero : (8 * 2)"
+      ],
+      "metadata": {
+        "id": "cz07n7X4-dQH"
+      },
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "print(f\"O dobro do número é: {Numero_1 * 2}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3009fa8e-c62c-4432-f0e1-7db2a94af048",
+        "id": "g5nGtjYV_DV-"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O dobro do número é: 16\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
