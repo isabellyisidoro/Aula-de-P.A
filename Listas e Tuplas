@@ -1,0 +1,415 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPnMR+bXiwfI1hzaJttiNbp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/isabellyisidoro/Aula-de-P.A/blob/main/Listas%20e%20Tuplas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sD9pmqruFYz4",
+        "outputId": "41a73c0c-5257-4ec7-e57f-e1b2f689724b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Marcos\n",
+            "['Leticia', 'Macia', 'Marcos']\n"
+          ]
+        }
+      ],
+      "source": [
+        "alunos=[\"Leticia\", \"Anderson\", \"Marcos\"]\n",
+        "print(alunos[2])\n",
+        "alunos[1] = \"Macia\"\n",
+        "print(alunos)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alunos=[\"Leticia\", \"Anderson\", \"Marcos\"]\n",
+        "alunos.append(\"Rafaela\")\n",
+        "print(alunos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cd6mEprdHNn0",
+        "outputId": "5c0592ce-4be8-48c1-cfe6-4243dbac0ab2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Leticia', 'Anderson', 'Marcos', 'Rafaela']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alunos=[\"Leticia\", \"Anderson\", \"Marcos\"]\n",
+        "alunos.remove(\"Leticia\")\n",
+        "print(alunos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g-SHzDxVHiBR",
+        "outputId": "a14e9d59-f446-454d-cb75-8f63baa78897"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Anderson', 'Marcos']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aluno =(\"Ana\", \"17\", \"informatica\")\n",
+        "print(alunos[2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZbFKX03CIEM3",
+        "outputId": "82a912a2-5089-4e2e-ba34-222b26a6c08e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Marcos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercicios:"
+      ],
+      "metadata": {
+        "id": "Pz-urobl2Eom"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Frutas!\")\n",
+        "Frutas=[\"Maça\", \"Banana\", \"Laranja\", \"Morango\"]\n",
+        "print(Frutas)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oYQiYo0Lzial",
+        "outputId": "0e239538-373a-4fcc-90a8-6d9346503db4"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Frutas!\n",
+            "['Maça', 'Banana', 'Laranja', 'Morango']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Nomes =[\"Rebeca\", \"Guilherme\", \"Mellissa\", \"Kyara\"]\n",
+        "print(Nomes[0])\n",
+        "print(Nomes[1])\n",
+        "print(Nomes[3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eiA1eztw0v2n",
+        "outputId": "4bed56ec-5152-4890-90bd-5119261a99e0"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rebeca\n",
+            "Guilherme\n",
+            "Kyara\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Cores=[\"Vermelho\", \"azul\", \"verde\"]\n",
+        "Cores[1] = \"Amarelo\"\n",
+        "print(Cores)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "66BhrJqW1r5B",
+        "outputId": "9394540c-0444-462b-e5f8-f9b07c934100"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Vermelho', 'Amarelo', 'verde']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "alunos=[\"Nicolas\", \"Wendel\", \"Pyetra\"]\n",
+        "alunos.append(\"Petros\")\n",
+        "print(alunos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "04w_BhqB2xec",
+        "outputId": "f6e3c4ca-6fb3-4f16-a8a0-d3e3768ff1ca"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Nicolas', 'Wendel', 'Pyetra', 'Petros']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "animais=[\"cachorro\", \"gato\", \"coelho\", \"passarinho\"]\n",
+        "animais.remove(\"coelho\")\n",
+        "print(animais)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "L0qgyFIY3efi",
+        "outputId": "2f3782e6-9643-4a13-dc31-d026fbd0d982"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['cachorro', 'gato', 'passarinho']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Tupla:"
+      ],
+      "metadata": {
+        "id": "4uWhdPRE-jzO"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "meses = (\"janeiro\", \"fevereiro\", \"Março\", \"Abril\")\n",
+        "print(meses)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9jkmrJo031ah",
+        "outputId": "a6a3cef4-a91f-438b-d73b-d45690ee1043"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('janeiro', 'fevereiro', 'Março', 'Abril')\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros = (10, 20, 30, 40, 50)\n",
+        "print(numeros[0])\n",
+        "print(numeros[2])\n",
+        "print(numeros[-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CWMLeCDN-TN0",
+        "outputId": "a5ac2562-6602-4e07-9217-e5e01c1a306d"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "30\n",
+            "50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aluno = (\"Isabelly\", 15, \"Informática para Internet\")\n",
+        "print(aluno[0])\n",
+        "print(aluno[1])\n",
+        "print(aluno[2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "y3TilCh_-U8e",
+        "outputId": "51df0fbe-c5e0-4f02-c8b1-22deebdb67cc"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Isabelly\n",
+            "15\n",
+            "Informática para Internet\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cores = (\"vermelho\", \"azul\", \"verde\")\n",
+        "\n",
+        "cores[1] = \"amarelo\"\n",
+        "\n",
+        "print(cores)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 211
+        },
+        "id": "hjg3aCem-cH_",
+        "outputId": "1a60ada0-e19d-4971-fa71-1a2746bd582d"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'tuple' object does not support item assignment",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1520/2500239078.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mcores\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;34m\"vermelho\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"azul\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"verde\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mcores\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"amarelo\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      4\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcores\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros = (2, 4, 2, 6, 2, 8, 10)\n",
+        "print(numeros.count(2))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EjusnFK--eI2",
+        "outputId": "88873a34-abb2-4998-bd71-02b2d863d25d"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
